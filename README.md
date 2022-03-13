@@ -4,6 +4,7 @@ Youtube下載器<br/>
 Windoes:<br/>
   <code>pip install pytube</code><br/>
   <code>pip install moviepy</code><br/>
+  您也可以直接開啟"Windows Setter.bat"進行自動化執行</br>
 MacOS:<br/>
   <code>pip3 install pytube</code><br/>
   <code>pip3 install moviepy</code><br/>
