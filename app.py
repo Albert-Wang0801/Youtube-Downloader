@@ -16,7 +16,9 @@ while(True):
     if os.path.isfile(audio_folder):
         os.mkdir("./audio")
         print("建立資料夾: audio")
-
+        
+    time.sleep(0.5)
+        
     #定義下載 Youtube 檔案
     url = str(input("請貼上 Youtube 影片連結(輸入 EXIT 結束):　"))
     if(url == "EXIT"):
