@@ -3,14 +3,18 @@ import moviepy.editor
 import os ,time
 
 while(True):
+    os.system("cls")
+    
     # 要檢查的檔案路徑
     video_folder = "./video"
     audio_folder = "./audio"
 
     # 檢查檔案是否存在
     if os.path.isfile(video_folder):
+        os.mkdir("./video")
         print("建立資料夾: video")
     if os.path.isfile(audio_folder):
+        os.mkdir("./audio")
         print("建立資料夾: audio")
 
     #定義下載 Youtube 檔案
